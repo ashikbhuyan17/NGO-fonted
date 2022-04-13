@@ -1,0 +1,47 @@
+.register-forms{
+    padding-bottom: 200px;
+     
+ }
+ 
+ .flex-container {
+     display: flex;
+     justify-content: center;
+     /* height: 90%; */
+     width: 90%;
+     margin-left: auto;
+     margin-right: auto;
+     margin-top: auto;
+     margin-bottom: auto;
+     flex-direction: row;
+     flex-wrap: wrap;
+     border: none;
+     border-radius: 30px;
+    
+     
+   }
+   
+   * {
+     box-sizing: border-box;
+   }
+   .left-form-container {
+     justify-content: center;
+     background-color: white;
+     background-size: cover;
+     text-align: center;
+     width: 50%;
+    
+     height: 400px;
+     padding-right: 50px;
+     
+   }
+.foodimg {
+    
+     width: 50%;
+     background-image: url("../whatwedo/food.jpg");
+     background-size: cover;
+     justify-content: center;
+     height: 400px;
+     margin-top:50px;
+    
+     
+   }
